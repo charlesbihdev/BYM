@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  padding: 0 10px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  /* background: #0d6efd; */
+}
+
+.wrapper {
+  width: 420px;
+  /* background: beige; */
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  margin-left: 230px;
+  background-color: #e5e7eb;
+  height: 510px;
+}
+.container h3 {
+  color: #356698;
+  margin-left: 180px;
+}
+
+.wrapper header {
+  font-size: 22px;
+  font-family: 600;
+  padding: 20px 30px;
+  margin-left: 20px;
+  /* border-bottom: 1px solid #bfbfbf; */
+}
+
+.wrapper form {
+  margin: 35px 40px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.odl-field .field {
+  height: 50px;
+  position: relative;
+  width: calc(100% / 2 - 13px);
+  caret-color: #356698;
+  /* margin-left: 400px; */
+}
+form .odl-field {
+  /* display: flex; */
+  align-items: center;
+  margin-bottom: 25px;
+  justify-content: space-between;
+  margin-left: 60px;
+  position: relative;
+  margin-top: 20px;
+}
+.odl-field .field {
+  height: 50px;
+  position: relative;
+  width: calc(100% / 1 - 43px);
+  margin-top: 10px;
+}
+
+form .field input,
+form .message textarea {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 18px 0 48px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  caret-color: #356698;
+}
+
+form .field input::placeholder,
+form .message textarea::placeholder {
+  color: #bfbfbf;
+}
+form .field input:focus,
+form .message textarea:focus {
+  border: 2px solid #356698;
+}
+form .odl-field .field i {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  color: #bfbfbf;
+  font-size: 17px;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+form .field input:focus ~ i {
+  color: #356698;
+}
+form .message {
+  position: relative;
+}
+form .message i {
+  top: 30px;
+  font-size: 20px;
+  /* margin-top: 30px; */
+}
+
+form .message textarea {
+  min-width: 100px;
+  max-width: 318px;
+  min-height: 120px;
+  max-height: 300px;
+  padding: 15px 20px 0 48px;
+  margin-left: 60px;
+  /* margin-top: 30px; */
+}
+
+form .button-area {
+  margin: 25px 0;
+  display: flex;
+  align-items: center;
+}
+
+.button-area button {
+  font-size: 18px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #356698;
+  padding: 13px 65px;
+  margin-left: 60px;
+  /* margin-top: 80px; */
+}
+
+.button-area span {
+  color: #0c0a7a;
+  margin-left: 30px;
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .touch-box header {
+    text-align: center;
+  }
+  form .odl-field {
+    margin-bottom: 0px;
+    flex-direction: column;
+  }
+  .odl-field .field {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+  }
+
+  form.message textarea {
+    resize: none;
+  }
+  form .button-area {
+    flex-direction: column;
+  }
+  .button-area button {
+    width: 100%;
+  }
+
+  .button-area span {
+    text-align: center;
+    margin: 20px 0;
+  }
+}
+
+.container {
+  background: white;
+  /* border: 1px solid blue; */
+  height: 600px;
+  width: 900px;
+}
+
+.slah {
+  /* border: 1px solid black; */
+  width: 1000px;
+  height: 90px;
+  /* margin-left:; */
+  margin-right: 300px;
+  margin-top: 40px;
+  display: flex;
+}
+
+.slah .inner-slah {
+  /* border: 1px solid black; */
+  height: 60px;
+  width: 250px;
+  /* margin-right: 100px; */
+  margin-top: 60px;
+  height: 400px;
+  background-color: #356698;
+  position: absolute;
+}
+
+.slah .inner-slah h2 {
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-left: 30px;
+  margin-top: 20px;
+}

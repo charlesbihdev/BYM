@@ -63,12 +63,14 @@ nav {
 }
 .wedo-section {
   background-color: #ecfafa;
-  height: 350px;
+  /* height: 350px; */
 }
+
 .wedo-card {
   height: 275px;
   justify-content: space-evenly;
-  width: 18.5%;
+  width: 220px;
+  margin: 20px 0;
 }
 
 .wedo-card h2 {
@@ -219,4 +221,9 @@ nav {
 
 .footer h1 {
   font-family: "Gilroy", sans-serif;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer ul {
+    width: 100%;
+  }
 }
