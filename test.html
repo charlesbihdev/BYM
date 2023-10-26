@@ -4,88 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
     <style>
-      @import url("https://fonts.googleapis.com/css?family=Muli:300,700&display=swap");
-
-      * {
-        box-sizing: border-box;
-      }
-
-      body {
-        background-color: #e9bc32;
-        font-family: "Muli", sans-serif;
+      nav {
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
-        height: 100vh;
-        margin: 0;
       }
 
-      .box {
-        background-color: #fff;
-        border-radius: 20px;
-        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
-        padding: 30px;
-        text-align: center;
-        max-width: 500px;
+      .menu-icon {
+        display: none; /* Initially hide the menu icon on larger screens */
+        cursor: pointer;
       }
 
-      .box h2 {
-        margin: 10px 0 0;
+      .nav-links {
+        list-style: none;
+        display: flex;
       }
 
-      .box p {
-        color: #312940;
-        margin: 10px;
+      .nav-links li {
+        margin: 0 15px;
       }
 
-      .form-control {
-        position: relative;
-        margin: 30px 0 20px;
-      }
+      /* Media query to make the menu responsive for smaller screens (e.g., phones) */
+      @media (max-width: 768px) {
+        .menu-icon {
+          display: block; /* Show the menu icon on small screens */
+        }
 
-      .input {
-        border: 0;
-        border-radius: 50px;
-        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
-        display: block;
-        font-family: "Muli", sans-serif;
-        font-size: 14px;
-        height: 42px;
-        padding: 12px 25px;
-        width: 100%;
-      }
+        .nav-links {
+          display: none; /* Hide the navigation links on small screens */
+          flex-direction: column;
+        }
 
-      .btn {
-        background-color: #356698;
-        border: 0;
-        border-radius: 50px;
-        color: #fff;
-        font-size: 14px;
-        height: 42px;
-        padding: 12px 25px;
-        position: absolute;
-        top: 0;
-        right: 0;
-      }
-
-      .input:focus,
-      .btn:focus {
-        outline: 0;
+        .nav-links.active {
+          display: flex; /* Show the navigation links when the menu is active */
+        }
       }
     </style>
   </head>
   <body>
-    <div class="box">
-      <h2>Subscribe to our Newsletter</h2>
-      <p>
-        Our weekly newsletter provides you with the latest and most important
-        happenings in the industry.
-      </p>
-      <div class="form-control">
-        <input type="text" class="input" placeholder="Enter e-mail adress" />
-        <button class="btn">Subscribe</button>
+    <nav>
+      <div class="menu-icon">
+        <i class="fas fa-bars"></i>
       </div>
-    </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
   </body>
+  <script>
+    const menuIcon = document.querySelector(".menu-icon");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuIcon.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
 </html>

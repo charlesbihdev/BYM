@@ -103,10 +103,6 @@ nav {
 }
 
 /* #990200  */
-.section-4 {
-  height: 270px;
-  /* background-color: #f0d4b8;  */
-}
 
 /* test */
 .blog-card {
@@ -222,8 +218,73 @@ nav {
 .footer h1 {
   font-family: "Gilroy", sans-serif;
 }
+.hide-for-desktop {
+  display: none;
+}
+.hide-for-mobile {
+  display: none;
+}
+@media (min-width: 1024px) {
+  /* Your CSS rules for desktop screens go here */
+  .hide-for-desktop {
+    display: none !important;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
-  .footer ul {
+  .section-4 {
+    height: 270px;
+    /* background-color: #f0d4b8;  */
+  }
+
+  .hide-for-tablet {
+    display: none !important;
+  }
+
+  .green-h1 {
+    margin-top: 5rem !important;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Your CSS rules for mobile devices go here */
+
+  .hide-for-desktop {
+    display: block;
+  }
+
+  .hero-section {
+    flex-wrap: wrap;
+    border: 0;
+    padding-bottom: 40px;
+    /* background-color: white; */
+  }
+  .hero-section-1 {
+    background-color: #356698;
+    padding: 27px 5px;
+  }
+  .hero-section-hide {
+    background-color: white !important;
+    border-bottom: 5px solid #356698;
+  }
+  .hero-section-2 {
+    margin-bottom: 15px !important;
+    margin-top: 57px;
+  }
+
+  .blog-card {
+    height: 520px;
     width: 100%;
+  }
+
+  .blog-card-no-bg {
+    margin: 57px 0px;
+    background-color: transparent;
+    height: 220px;
+    width: 100%;
+  }
+
+  .hide-for-mobile {
+    display: none !important;
   }
 }

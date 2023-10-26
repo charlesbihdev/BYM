@@ -5,13 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <linK rel="icon" href="./assets/images/logo.jpg" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+  />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Bekwai Youth Movement</title>
   </head>
   <body>
-    <nav class="flex justify-between text-base font-bold">
-      <div class="p-4">logo</div>
-      <ul class="flex flex-wrap justify-between">
+    <nav class="flex justify-between text-base font-bold pb-5">
+      <div class="p-4">
+        Logo
+      </div>
+      <div class="hide-for-desktop menu-icon p-4">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="flex flex-wrap justify-between hide-for-mobile">
         <li class="p-4 hover:text-red">Home</li>
         <li class="p-4 hover:text-black">Blog</li>
         <a href="./about.html"><li class="p-4 hover:text-black">About</li></a>
@@ -20,8 +29,8 @@
       </ul>
     </nav>
     <main>
-      <section class="flex  hero-section h-110vh">
-        <div class="w-full my-auto text-center">
+      <section class="flex hero-section h-110vh">
+        <div class=" hero-section-1 w-full my-auto text-center">
           <h1 class="text-4xl text-white font-extrabold text-center">
             Bekwai Youth Movement Temp Text Here
           </h1>
@@ -29,18 +38,20 @@
             Empowering the youth, for better future
           </h2>
           <button
-            class="bg-green hover:bg-red-800 text-white font-bold py-3 px-6 rounded-full border-2 transition duration-1000 ease-in-out"
+            class="hero-button bg-green hover:bg-red-800 text-white font-bold py-3 px-6 rounded-full border-2 transition duration-1000 ease-in-out"
           >
             Become a volunteer
           </button>
         </div>
-        <div class="text-3xl rounded-l-full bg-white border-black w-full">
+        <div class=" hide-for-desktop bg-white h-10 hero-section-hide w-full">
+        </div>
+        <div class="rounded-lg hero-section-2 text-3xl rounded-l-full bg-white border-black w-full">
           <img src="./assets/images/1logo-transparent.png" />
         </div>
       </section>
       <div class="h-10 bg-white"></div>
-      <section class="we-believe flex">
-        <div class="w-1/2">
+      <section class="we-believe flex flex-wrap">
+        <div class="w-full lg:w-1/2">
           <h1
             class="text-green text-center text-3xl tracking-widest font-extrabold mt-12 mb-5"
           >
@@ -56,7 +67,7 @@
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <div class="w-1/2">
+        <div class="w-full lg:w-1/2">
           <img
             src="./assets/images/1logo-transparent.png"
             style="height: 330px; display: block; margin: 0 auto"
@@ -170,7 +181,85 @@
         </p>
       </section>
       <section
-        class="section-5 px-12 bg-white flex justify-between flex-wrap mb-10"
+        class="hide-for-desktop py-12 px-12 bg-gradient-to-bl from-blue-50 to-violet-50 flex justify-between flex-wrap mb-10"
+      >
+<!-- component -->
+<div
+class=" flex items-center justify-center lg:h-screen"
+>
+<div class="container mx-auto mx-auto">
+  <div
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4"
+  >
+  <h1 class="tracking-widest text-green font-extrabold mb-4 md:mt-12 text-3xl md:text-5xl">
+    Feel Free To Read Our Latest Blogs Below
+  </h1>
+    <!-- Replace this with your grid items -->
+    <div class="bg-white rounded-lg border p-4">
+      <img
+        src="https://placehold.co/300x200/d1d4ff/352cb5.png"
+        alt="Placeholder Image"
+        class="w-full h-48 rounded-md object-cover"
+      />
+      <div class="px-1 py-4">
+        <div class="font-bold text-xl mb-2">Blog Title</div>
+        <p class="text-gray-700 text-base">
+          This is a simple blog card example using Tailwind CSS. You can
+          replace this text with your own blog content.
+        </p>
+      </div>
+      <div class="px-1 py-4">
+        <a href="#" class="text-blue-500 hover:underline">Read More</a>
+      </div>
+    </div>
+    <!-- end card -->
+
+    <!-- start card -->
+    <div class="bg-white rounded-lg border p-4">
+      <img
+        src="https://placehold.co/300x200/d1d4ff/352cb5.png"
+        alt="Placeholder Image"
+        class="w-full h-48 rounded-md object-cover"
+      />
+      <div class="px-1 py-4">
+        <div class="font-bold text-xl mb-2">Blog Title</div>
+        <p class="text-gray-700 text-base">
+          This is a simple blog card example using Tailwind CSS. You can
+          replace this text with your own blog content.
+        </p>
+      </div>
+      <div class="px-1 py-4">
+        <a href="#" class="text-blue-500 hover:underline">Read More</a>
+      </div>
+    </div>
+    <!-- end card -->
+
+    <!-- start card -->
+    <div class="bg-white rounded-lg border p-4">
+      <img
+        src="https://placehold.co/300x200/d1d4ff/352cb5.png"
+        alt="Placeholder Image"
+        class="w-full h-48 rounded-md object-cover"
+      />
+      <div class="px-1 py-4">
+        <div class="font-bold text-xl mb-2">Blog Title</div>
+        <p class="text-gray-700 text-base">
+          This is a simple blog card example using Tailwind CSS. You can
+          replace this text with your own blog content.
+        </p>
+      </div>
+      <div class="px-1 py-4">
+        <a href="#" class="text-blue-500 hover:underline">Read More</a>
+      </div>
+    </div>
+
+    <!-- end card -->
+  </div>
+</div>
+</div>
+      </section>
+      <section
+        class="hide-for-mobile hide-for-tablet px-12 bg-white flex justify-between flex-wrap mb-10"
       >
         <!-- start blog card here  -->
         <div
