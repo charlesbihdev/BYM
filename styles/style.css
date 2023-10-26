@@ -287,4 +287,8 @@ nav {
   .hide-for-mobile {
     display: none !important;
   }
+
+  .hidemenu {
+    display: none;
+  }
 }

@@ -17,7 +17,7 @@
       <div class="p-4">
         Logo
       </div>
-      <div class="hide-for-desktop menu-icon p-4">
+      <div id="menu-icon" class="hide-for-desktop menu-icon p-4">
         <i class="fas fa-bars"></i>
       </div>
       <ul class="flex flex-wrap justify-between hide-for-mobile">
@@ -28,6 +28,12 @@
        <a href="./contact.html"> <li class="p-4 hover:text-black">Contact Us</li></a>
       </ul>
     </nav>
+    <ul id="mobile-menu" class="hide-for-desktop hidemenu bg-gray-200 p-4">
+       <a href="./index.html"><li class="p-4 hover:text-blue-500">Home</li></a>
+       <a href="./blog.html"><li class="p-4 hover:text-blue-500 border-green-700 border-t-2">Blog</li></a>
+       <a href="./about.html"><li class="p-4 hover:text-blue-500 border-green-700 border-t-2">About</li></a>
+       <a href="./contact.html"> <li class="p-4 hover:text-blue-500 border-green-700 border-t-2">Contact Us</li></a>
+    </ul>
     <main>
       <section class="flex hero-section h-110vh">
         <div class=" hero-section-1 w-full my-auto text-center">
@@ -552,7 +558,7 @@ class=" flex items-center justify-center lg:h-screen"
           aliquip ex ea commodo consequat. Duis aute irure dolor in
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          culpa qui officia .
         </p>
       </section>
     </main>
@@ -582,7 +588,7 @@ class=" flex items-center justify-center lg:h-screen"
           <hr class="mb-2">
           <p>Bekwai Youth Movement was founded not long ago by our with the vision of making a positive impact in the world.
              Since our inception, we have been dedicated to our mission of helping
-              those in need and creating lasting change in our communities.
+              those in need.
           </p>
          
         </ul>
@@ -590,5 +596,7 @@ class=" flex items-center justify-center lg:h-screen"
       <footer class="bg-red border-white border-2 border-x-0 font-bold text-white text-center py-5">
           <p>© 2023 BEKWAI YOUTH MOVEMENT. DEVELOPED BY <a class="text-blue-500" target="_blank" href="https://linktr.ee/charlesbihdev">CHARLES OWUSU BIH
           </p></a></footer>
+
+          <script src="./scripts/togglemenu.js"></script>
   </body>
 </html>
