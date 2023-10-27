@@ -231,11 +231,6 @@ nav {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .section-4 {
-    /* height: 270px; */
-    /* background-color: #f0d4b8;  */
-  }
-
   .footer ul {
     width: 220px;
   }

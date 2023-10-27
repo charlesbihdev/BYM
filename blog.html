@@ -15,7 +15,7 @@
       @media (max-width: 767px) {
         /* Your CSS rules for mobile devices go here */
         .featured {
-          flex-wrap: nowrap !important;
+          flex-wrap: wrap !important;
         }
       }
     </style>
@@ -24,8 +24,8 @@
     <!-- component -->
     <div class="max-w-screen-lg mx-auto">
       <!-- header -->
-      <header class="flex items-center justify-between py-2">
-        <a href="#" class="px-2 lg:px-0 font-bold capitalize"> Tech Blog </a>
+      <header class="flex flex-wrap justify-between py-2">
+        <a href="#" class="px-2 lg:px-0 font-bold capitalize"> Blog Page </a>
         <button class="block md:hidden px-2 text-3xl">
           <i class="bx bx-menu"></i>
         </button>
@@ -85,7 +85,7 @@
       <main class="mt-12">
         <!-- featured section -->
         <div
-          class="featured md:flex-no-wrap space-x-0 md:space-x-6 flex-no-wrap mb-16"
+          class="featured flex md:flex-no-wrap space-x-0 md:space-x-6 flex-no-wrap mb-16"
         >
           <!-- main post -->
           <div
@@ -99,7 +99,7 @@
               Technology
             </span>
             <h1
-              class="text-gray-800 text-4xl font-bold mt-2 mb-2 leading-tight"
+              class="text-gray-800 text-4xl font-bold mt-2 mb-2 leading-tight text-green-700"
             >
               Ignorant branched humanity led now marianne too.
             </h1>
@@ -113,7 +113,7 @@
             </p>
             <a
               href="#"
-              class="inline-block px-6 py-3 mt-2 rounded-md bg-green-700 text-gray-100"
+              class="inline-block px-6 py-3 mt-2 rounded-md bg-blue-700 text-gray-100"
             >
               Read more
             </a>
@@ -209,7 +209,7 @@
 
         <!-- recent posts -->
         <div class="flex mt-16 mb-4 px-4 lg:px-0 items-center justify-between">
-          <h2 class="font-bold text-3xl">Latest news</h2>
+          <h2 class="font-bold text-green-700 text-3xl">Latest news</h2>
           <a
             class="bg-gray-200 hover:bg-green-200 text-gray-800 px-3 py-1 rounded cursor-pointer"
           >
