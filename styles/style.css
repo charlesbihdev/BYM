@@ -27,17 +27,6 @@ h6 {
   font-size: inherit;
   font-weight: bold !important;
 }
-nav {
-  /* #003334; green 
-    #980204;   red 
-    #356698; blue */
-  z-index: 1;
-  font-family: "Gilroy", sans-serif;
-  position: relative;
-  color: white;
-  background-color: #356698;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
 
 .hero-section {
   background-color: #356698;
@@ -199,24 +188,6 @@ nav {
   outline: 0;
 }
 
-/* newsletter box end  */
-.footer {
-  background-color: #356698;
-}
-
-.footer ul {
-  width: 280px;
-}
-
-.footer ul li {
-  list-style-type: square;
-  padding: 4px;
-  margin-left: 18px;
-}
-
-.footer h1 {
-  font-family: "Gilroy", sans-serif;
-}
 .hide-for-desktop {
   display: none;
 }

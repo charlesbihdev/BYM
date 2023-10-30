@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../font/Gilroy-FREE/Gilroy-Light.otf") format("opentype");
+  /* Add more src declarations for different font weights or styles if needed */
+}
+@font-face {
+  font-family: "Gilroy-bold";
+  src: url("../font/Gilroy-FREE/Gilroy-ExtraBold.otf") format("opentype");
+  /* Add more src declarations for different font weights or styles if needed */
+}
+.bg-red {
+  background-color: #990200;
+}
+.text-red {
+  color: #990200;
+}
+nav {
+  /* #003334; green 
+        #980204;   red 
+        #356698; blue */
+  z-index: 1;
+  font-family: "Gilroy", sans-serif;
+  position: relative;
+  color: white;
+  background-color: #356698;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* newsletter box end  */
+.footer {
+  background-color: #356698;
+}
+
+.footer ul {
+  width: 280px;
+}
+
+.footer ul li {
+  list-style-type: square;
+  padding: 4px;
+  margin-left: 18px;
+}
+
+.footer h1 {
+  font-family: "Gilroy", sans-serif;
+}
+
+.hide-for-desktop {
+  display: none;
+}
+.hide-for-mobile {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  /* Your CSS rules for desktop screens go here */
+  .hide-for-desktop {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hide-for-tablet {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Your CSS rules for mobile devices go here */
+
+  .hide-for-desktop {
+    display: block;
+  }
+
+  .hero-section-1 {
+    background-color: #356698;
+    padding: 27px 5px;
+  }
+
+  .hide-for-mobile {
+    display: none !important;
+  }
+
+  .hidemenu {
+    display: none;
+  }
+}
