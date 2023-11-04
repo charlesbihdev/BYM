@@ -42,7 +42,7 @@ nav {
 }
 
 .footer h1 {
-  font-family: "Gilroy", sans-serif;
+  font-family: "Gilroy", sans-serif !important;
 }
 
 .hide-for-desktop {

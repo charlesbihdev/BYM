@@ -1,4 +1,4 @@
-<div class="footer flex py-10 text-white justify-evenly flex-wrap ">
+<div class="footer bg-blue flex py-10 text-white justify-evenly flex-wrap ">
     <ul>
         <h1 class="font-bold text-xl mb-6">Our Mission</h1>
         <hr class="mb-2">

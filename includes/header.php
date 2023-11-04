@@ -1,5 +1,5 @@
-<nav class="flex justify-between text-base font-bold pb-5">
-    <div class="p-4">
+<nav class="bg-blue flex justify-between text-base font-bold pb-5">
+    <div class="p-4 text-white">
         Logo
     </div>
     <div id="menu-icon" class="hide-for-desktop menu-icon p-4">
@@ -7,19 +7,19 @@
     </div>
     <ul class="flex flex-wrap justify-between hide-for-mobile">
         <a href="./index.php">
-            <li class="p-4 hover:text-red">Home</li>
+            <li class="p-4 text-white hover:text-red">Home</li>
         </a>
         <a href="./blog.php">
-            <li class="p-4 hover:text-black">Blog</li>
+            <li class="p-4 text-white hover:text-black">Blog</li>
         </a>
         <a href="./about.php">
-            <li class="p-4 hover:text-black">About</li>
+            <li class="p-4 text-white hover:text-black">About</li>
         </a>
         <a href="./gallery.php">
-            <li class="p-4 hover:text-black">Gallery</li>
+            <li class="p-4 text-white hover:text-black">Gallery</li>
         </a>
         <a href="./contact.php">
-            <li class="p-4 hover:text-black">Contact Us</li>
+            <li class="p-4 text-white hover:text-black">Contact Us</li>
         </a>
     </ul>
 </nav>
