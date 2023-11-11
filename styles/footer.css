@@ -63,6 +63,10 @@ nav {
   .hide-for-tablet {
     display: none !important;
   }
+
+  .footer ul {
+    width: 220px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -75,6 +79,10 @@ nav {
   .hero-section-1 {
     background-color: #356698;
     padding: 27px 5px;
+  }
+
+  .footer ul:not(:last-child) {
+    margin-bottom: 33px;
   }
 
   .hide-for-mobile {
