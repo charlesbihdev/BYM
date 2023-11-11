@@ -30,7 +30,7 @@
     </ul>
 </div>
 <footer class="bg-red border-white border-2 border-x-0 font-bold text-white text-center py-5">
-    <p class="mx-2">© 2023 BEKWAI YOUTH MOVEMENT. DEVELOPED BY <a class="text-blue-500" target="_blank" href="https://linktr.ee/charlesbihdev">CHARLES OWUSU BIH
+    <p class="mx-2">&copy; 2023 BEKWAI YOUTH MOVEMENT. DEVELOPED BY <a class="text-blue-500" target="_blank" href="https://linktr.ee/charlesbihdev">CHARLES OWUSU BIH
     </p></a>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>

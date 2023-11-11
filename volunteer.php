@@ -26,9 +26,9 @@
     include("./includes/header.php");
     ?>
     <!-- component -->
-    <div class="grid min-h-screen place-items-center">
+    <div class="grid place-items-center">
         <div class="w-11/12 pt-10 pb-10 bg-white sm:w-10/12 md:w-9/12 lg:w-7/12">
-            <h1 class="text-5xl text-center font-semibold text-green-700">Volunteer Registration Form</h1>
+            <h1 class="text-4xl lg:text-5xl text-center font-semibold text-green-700">Volunteer Registration Form</h1>
             <form class="mt-8">
                 <div class="flex justify-between gap-3">
                     <span class="w-1/2">
