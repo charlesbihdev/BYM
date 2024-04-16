@@ -26,7 +26,10 @@ nav {
 .hide-for-mobile {
   display: none;
 }
-
+#logo {
+  /* height: 30px; */
+  width: 100px;
+}
 @media (min-width: 1024px) {
   /* Your CSS rules for desktop screens go here */
   .hide-for-desktop {
@@ -42,6 +45,12 @@ nav {
 
 @media (max-width: 767px) {
   /* Your CSS rules for mobile devices go here */
+
+  #logo {
+    height: 60px;
+    width: 60px;
+    margin: 7px 16px;
+  }
 
   .hide-for-desktop {
     display: block;

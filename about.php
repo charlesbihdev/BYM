@@ -1,3 +1,6 @@
+<?php
+$cur_page = 'about';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,16 +9,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="./assets/images/logo.jpg" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
   <link rel="stylesheet" href="./styles/header.css" />
   <link rel="stylesheet" href="./styles/footer.css" />
   <!-- <link rel="stylesheet" href="./styles/style.css" /> -->
-  <title>Bekwai Youth Movement</title>
+  <title>About Us | Bekwai Youth Movement</title>
   <style>
     section div {
       /* border: 1px solid black; */
       /* background-color: gray; */
-      height: 400px;
-      width: 550px;
+      height: 420px;
+      width: 650px;
     }
   </style>
 </head>
@@ -25,9 +30,10 @@
   <?php
   include("./includes/header.php");
   ?>
-  <section class="flex flex-wrap items-center justify-center pb-10">
+  <h1 class="text-5xl my-12 font-bold text-center text-blue-800">About US</h1>
+  <section class="px-4 flex flex-wrap items-center justify-center pb-10">
     <div class="h-50 w-50 xl:mr-10 bg-gray-100 p-8 text-justify">
-      <h3 class="text-blue-800 mb-5 text-2xl">Our Story</h3>
+      <h3 class="text-blue-800 mb-5 text-3xl font-bold">Our Story</h3>
       <p class="text-gray-600">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -41,13 +47,13 @@
       <img src="./assets/images/youth.jpg" style="height: 100%" width="100%" />
     </div>
   </section>
-  <section class="flex flex-wrap items-center justify-center">
+  <section class="px-4 flex flex-wrap items-center justify-center mb-10">
     <div class="h-50 w-50 mt-12 mb-10" style="margin-top: 80px">
       <img src="./assets/images/download.jpeg" style="height: 100%" width="100%" />
     </div>
 
     <div class="h-50 w-50 xl:ml-10 bg-gray-100 p-8 text-justify">
-      <h3 class="text-blue-800 mb-5 text-2xl">Our Mission</h3>
+      <h3 class="text-blue-800 mb-5 text-3xl font-bold">Our Mission</h3>
       <p class="text-gray-600">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

@@ -1,3 +1,6 @@
+<?php
+$cur_page = 'blog';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
   <link rel="stylesheet" href="./styles/header.css" />
   <link rel="stylesheet" href="./styles/footer.css" />
-  <title>Bekwai Youth Movement</title>
+  <title>Blog | Bekwai Youth Movement</title>
   <style>
     @media (max-width: 767px) {
 
@@ -28,11 +31,11 @@
   include("./includes/header.php");
   ?>
   <!-- component -->
-  <div class="max-w-screen-lg mx-auto">
+  <div class="px-4 sm:px-20 mx-auto">
     <!-- header -->
     <header class="flex flex-wrap justify-between py-8">
       <a href="#" class="px-2 lg:px-0 font-bold font-xl capitalize">
-        <h2>Blog Page</h2>
+        <h2 class="text-2xl">Blog Page</h2>
       </a>
       <button class="block md:hidden px-2 text-3xl">
         <i class="bx bx-menu"></i>
@@ -40,7 +43,7 @@
       <ul class="hidden md:inline-flex items-center">
 
         <li class="px-2 md:px-4">
-          <a href="#" class="text-gray-500 font-semibold hover:text-green-600">
+          <a href="#" class="text-gray-500 font-semibold hover:text-green-600 border-b text-yellow-500 border-yellow-500">
             Category 1
           </a>
         </li>

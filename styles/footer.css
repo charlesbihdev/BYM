@@ -8,6 +8,7 @@
   src: url("../font/Gilroy-FREE/Gilroy-ExtraBold.otf") format("opentype");
   /* Add more src declarations for different font weights or styles if needed */
 }
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 .bg-red {
   background-color: #990200;
 }

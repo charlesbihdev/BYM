@@ -1,3 +1,6 @@
+<?php
+$cur_page = 'gallery';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,9 +9,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="./assets/images/logo.jpg" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
   <link rel="stylesheet" href="./styles/header.css" />
   <link rel="stylesheet" href="./styles/footer.css" />
-  <title>Gallery - BYM</title>
+  <title>Gallery | Bekwai Youth Movement</title>
 </head>
 
 <body>
@@ -16,8 +21,8 @@
   <?php
   include("./includes/header.php");
   ?>
-  <h1 class="text-center text-2xl text-blue-700 font-bold mt-7">BYM GALLERY</h1>
-  <div class="grid grid-cols-2 my-10 md:grid-cols-4 gap-4">
+  <h1 class="text-center text-4xl text-blue-700 font-bold my-20">BYM GALLERY</h1>
+  <div class="px-4 sm:px-20 grid grid-cols-2 my-10 md:grid-cols-4 gap-4">
     <div class="grid gap-4">
       <div>
         <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="" />

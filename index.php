@@ -1,3 +1,6 @@
+<?php
+$cur_page = 'home';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,11 +9,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="./assets/images/logo.jpg" />
 
-  <!-- <link href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" /> -->
-  <link rel="stylesheet" href="./boot.css" />
+
   <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 
-  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <!-- <script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
 
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css" rel="stylesheet" />
@@ -19,7 +21,13 @@
   <link rel="stylesheet" href="./styles/style.css" />
   <link rel="stylesheet" href="./styles/header.css" />
   <link rel="stylesheet" href="./styles/footer.css" />
-  <title>Bekwai Youth Movement</title>
+
+  <!-- slick css  -->
+  <link rel="stylesheet" href="./includes/slick-1.8.1/slick/slick.css" charset="utf-8">
+  <link rel="stylesheet" href="./includes/slick-1.8.1/slick/slick-theme.css" charset="utf-8">
+  <link rel="stylesheet" href="./styles/slick-hero.css" charset="utf-8">
+
+  <title>Home | Bekwai Youth Movement</title>
 </head>
 
 <body>
@@ -28,27 +36,53 @@
   include("./includes/header.php");
   ?>
   <main>
-    <section class=" overflow-hidden">
+    <section class="overflow-hidden">
       <!-- Background image -->
-      <div class="relative overflow-hidden bg-cover bg-no-repeat bg-[50%] h-[500px] bg-[url('./assets/blog-images/temp3.jpeg')]">
-        <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.75)]">
-          <div class="flex h-full items-center justify-center">
-            <div class="px-6 text-center text-white md:px-12">
-              <h1 class="mt-6 mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
-                Bekwai Youth Movement <br /><span class="text-white-500 font-bold text-center text-4xl">Empowering the youth, for better future</span>
-              </h1>
-              <a class="mb-2 inline-block rounded-full border-2 border-neutral-50 px-[46px] pt-[14px] pb-[12px] text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-5 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 md:mr-2 md:mb-0 hover:bg-red-800" data-te-ripple-init data-te-ripple-color="light" href="./volunteer.php" role="button">Volunteer</a>
-              <a class="inline-block rounded-full px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-20 hover:text-neutral-200 focus:text-neutral-200 focus:outline-none focus:ring-0 active:text-neutral-300" data-te-ripple-init data-te-ripple-color="light" href="#!" role="button">Donate</a>
+      <div class="slider-area w-full">
+
+        <div class="slide hero-image" style="background-image: url(./assets/images/youth.jpg);">
+          <div class="bg-[hsla(0,0%,0%,0.35)] w-full h-full">
+            <div class="hero-text ">
+              <h1 class="font-medium" style="font-size:60px">Bekwai Youth Movement</h1>
+
+              <p class="my-4 text-3xl">Empowering the youth, for better future</p>
+              <!-- <button>Hire me</button> -->
+              <a class="my-4 inline-block rounded-full border-2 border-neutral-50 px-[46px] pt-[14px] pb-[12px] text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none hover:bg-red-800" href="./volunteer.php" role="button">Volunteer</a>
+              <a class="mb-3 inline-block bg-blue rounded-full px-12 pt-4 pb-3.5 text-sm font-medium uppercase hover:border-2 hover:border-neutral-50 leading-normal transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-20 hover:text-neutral-200 focus:text-neutral-200 focus:outline-none focus:ring-0 active:text-neutral-300" href="#!">Donate</a>
             </div>
           </div>
         </div>
+
+        <div class="slide slide-2 hero-image" style="background-image: url(./assets/images/download.jpeg);">
+          <div class="bg-[hsla(0,0%,0%,0.35)] w-full h-full">
+            <div class="hero-text ">
+              <h1 class="font-medium" style="font-size:60px">Bekwai Youth Movement</h1>
+
+              <p class="my-4 text-3xl">Empowering the youth, for better future</p>
+              <!-- <button>Hire me</button> -->
+              <a class="my-4 inline-block rounded-full border-2 border-neutral-50 px-[46px] pt-[14px] pb-[12px] text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none hover:bg-red-800" href="./volunteer.php" role="button">Volunteer</a>
+              <a class="mb-3 inline-block bg-blue rounded-full px-12 pt-4 pb-3.5 text-sm font-medium uppercase hover:border-2 hover:border-neutral-50 leading-normal transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-20 hover:text-neutral-200 focus:text-neutral-200 focus:outline-none focus:ring-0 active:text-neutral-300" href="#!">Donate</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide slide-3 hero-image" style="background-image: url(./assets/images/youth.jpg);">
+          <div class="bg-[hsla(0,0%,0%,0.35)] w-full h-full">
+            <div class="hero-text ">
+              <h1 class="font-medium" style="font-size:60px">Bekwai Youth Movement</h1>
+
+              <p class="my-4 text-3xl">Empowering the youth, for better future</p>
+              <!-- <button>Hire me</button> -->
+              <a class="my-4 inline-block rounded-full border-2 border-neutral-50 px-[46px] pt-[14px] pb-[12px] text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none hover:bg-red-800" href="./volunteer.php" role="button">Volunteer</a>
+              <a class="mb-3 inline-block bg-blue rounded-full px-12 pt-4 pb-3.5 text-sm font-medium uppercase hover:border-2 hover:border-neutral-50 leading-normal transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-20 hover:text-neutral-200 focus:text-neutral-200 focus:outline-none focus:ring-0 active:text-neutral-300" href="#!">Donate</a>
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
 
-      <div class="-mt-2.5 text-white dark:text-neutral-800 md:-mt-4 lg:-mt-6 xl:-mt-10 ] scale-[2] origin-[top_center]">
-        <svg viewBox="0 0 2880 48" xmlns="http://www.w3.org/2000/svg">
-          <path d="M 0 48 L 1437.5 48 L 2880 48 L 2880 0 L 2160 0 C 1453.324 60.118 726.013 4.51 720 0 L 0 0 L 0 48 Z" fill="currentColor"></path>
-        </svg>
-      </div>
       <!-- Background image -->
     </section>
     <section class="flex hero-section h-110vh" style="display: none;">
@@ -454,6 +488,21 @@
   <?php
   include("./includes/footer.php");
   ?>
+
+
+  <!-- slick requires jquery  -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+  <!-- slick js  -->
+  <script src="./includes/slick-1.8.1/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+
+  <!-- slcik init  -->
+  <script type="text/javascript">
+    $(".slider-area").slick({
+      infinite: true,
+      autoplay: true
+    });
+  </script>
 </body>
 
 </html>
