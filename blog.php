@@ -13,6 +13,7 @@ $cur_page = 'blog';
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
   <link rel="stylesheet" href="./styles/header.css" />
   <link rel="stylesheet" href="./styles/footer.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
   <title>Blog | Bekwai Youth Movement</title>
   <style>
     @media (max-width: 767px) {
@@ -34,7 +35,7 @@ $cur_page = 'blog';
   <div class="px-4 sm:px-20 mx-auto">
     <!-- header -->
     <header class="flex flex-wrap justify-between py-8">
-      <a href="#" class="px-2 lg:px-0 font-bold font-xl capitalize">
+      <!-- <a href="#" class="px-2 lg:px-0 font-bold font-xl capitalize">
         <h2 class="text-2xl">Blog Page</h2>
       </a>
       <button class="block md:hidden px-2 text-3xl">
@@ -63,7 +64,42 @@ $cur_page = 'blog';
           </a>
         </li>
 
-      </ul>
+      </ul> -->
+      <style>
+        .blog-implement{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .background{
+          /* border:1px solid black; */
+          padding: 50px;
+          background: none;
+          color: black;
+          border-radius: 5px;
+        }
+      </style>
+      <nav style="background-color: none;margin-top:40px;margin-left:150px;" class="background">
+<span class='blog-implement'>Have any news, articles or youth opportunity that you would like to share via our platform?</span>
+ <span > Get opportunities or new published on our platform for free.Free promotion by BYM!
+ </span>
+ <button type="button" style="margin-left:20px;padding:5px;background-color:antiquewhite;border-radius:10px;">
+    <a style="font-weight:900;" href="published_page.php">Get Published</a>
+  </button>
+  <hr style="padding-top:10px;">
+  <a href="#" class="inline-block px-4 py-1 mt-2 rounded-md bg-black bg-opacity-80 text-gray-100">
+            OUR NEWS
+          </a>
+          <a href="#" class="inline-block px-4 py-1 mt-2 rounded-md bg-black bg-opacity-80 text-gray-100">
+            CONFERENCES
+          </a>
+          <a href="#" class="inline-block px-4 py-1 mt-2 rounded-md bg-black bg-opacity-80 text-gray-100">
+            SCHOLARSHIP/FELLOWS
+          </a>
+          <a href="#" class="inline-block px-4 py-1 mt-2 rounded-md bg-black bg-opacity-80 text-gray-100">
+            YOUTH ARTICLES & SDGs
+          </a>
+      </nav>
     </header>
     <!-- header ends here -->
 
@@ -332,6 +368,7 @@ $cur_page = 'blog';
   <?php
   include("./includes/footer.php");
   ?>
+ 
 </body>
 
 </html>

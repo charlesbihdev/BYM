@@ -6,6 +6,11 @@
         <i class="fas fa-bars"></i>
     </div>
     <ul class="flex flex-wrap justify-between hide-for-mobile text-xl mt-12 mb-4">
+    <a href="./communities.php">
+            <li class="px-6 mx-2 text-white <?php if ($cur_page == 'communities') echo 'text-yellow-400 border-b border-yellow-400 hover:text-yellow-400 hover:border-b hover:border-yellow-400';
+                                            else echo 'hover:text-yellow-400 hover:border-b hover:border-yellow-400'; ?>">Communities</li>
+
+        </a>
         <a href="./index.php">
             <li class="px-6 mx-2 text-white <?php if ($cur_page == 'home') echo 'text-yellow-400 border-b border-yellow-400 hover:text-yellow-400 hover:border-b hover:border-yellow-400';
                                             else echo 'hover:text-yellow-400 hover:border-b hover:border-yellow-400'; ?>">Home</li>
