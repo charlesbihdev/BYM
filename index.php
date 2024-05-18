@@ -512,6 +512,123 @@ tackle the pressing issues facing our community and contribute to global progres
         culpa qui officia .
       </p>
     </section>
+    <style>
+      .event-plan{
+        /* border:1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 200px;
+        box-shadow: 0.5px 0.5px black;
+      }
+      .event{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:10px;
+      }
+     
+      
+    </style>
+    <div>
+      <span style="margin-left: 150px;text-decoration:underline;font-weight: 900;">OUR EVENTS</span>
+    </div>
+    <section class="boder ml-20 my-2 px-20">
+      <!-- begin events -->
+      <div class="event-plan flex my-2 center">
+        <!-- //picture and description// -->
+      <div class="flex event">
+        <img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" alt="" class='object-fill h-16 w-86'>
+        <div >
+          <span style="color:#880e0e">Mon,25 Mar</span><br>
+        
+          <span>Intercultural Interaction:'Youth of the World'/ <span style="color:#880e0e">Moscow</span></span>
+        </div>
+      </div>
+      <!-- button -->
+      <button class="inline-block px-3 py-1 mt-2 ml-50 rounded-md bg-black bg-opacity-80 text-gray-100">Details</button>
+      <div></div>
+
+      </div>
+      <!-- end events -->
+      <hr class="w-25">
+
+      <!-- start events -->
+      <div class="event-plan flex my-2  center">
+        <!-- //picture and description// -->
+      <div class="flex event">
+        <img src="https://images.unsplash.com/photo-1526666923127-b2970f64b422?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="" class='object-fill h-16 w-86'>
+        <div >
+          <span style="color:#880e0e">Thur,12 April</span><br>
+      
+          <span>Intercultural Interaction:'Youth of the World'/ <span style="color:#880e0e">e-learning</span></span>
+        </div>
+      </div>
+      <!-- button -->
+      <button class="inline-block px-3 py-1 mt-2 ml-50 rounded-md bg-black bg-opacity-80 text-gray-100">Details</button>
+      <div></div>
+
+      </div>
+      <!-- end events -->
+      <hr>
+      <!-- start events -->
+      <div class="event-plan flex my-2 center">
+        <!-- //picture and description// -->
+      <div class="flex event">
+        <img src="https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="" class='object-fill h-16 w-76'>
+        <div >
+          <span style="color:#880e0e">Sat,2 Jun</span><br>
+      
+          <span>Jesus Interaction:'Youth of the World'/ <span style="color:#880e0e">religion</span></span>
+        </div>
+      </div>
+      <!-- button -->
+      <button class="inline-block px-3 py-1 mt-2 ml-50 rounded-md bg-black bg-opacity-80 text-gray-100">Details</button>
+      <div></div>
+
+      </div>
+      <!-- end events -->
+      <hr>
+
+      <!-- start events -->
+      <div class="event-plan flex my-2 center">
+        <!-- //picture and description// -->
+      <div class="flex event">
+        <img src="https://images.unsplash.com/photo-1579275542618-a1dfed5f54ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="" class='object-fill h-16 w-66'>
+        <div >
+          <span style="color:#880e0e">Wed,9 Sept</span><br>
+        
+          <span>Developers meeting:'Youth of the World'/ <span style="color:#880e0e">Zoom</span></span>
+        </div>
+      </div>
+      <!-- button -->
+      <button class="inline-block px-3 py-1 mt-2 ml-50 rounded-md bg-black bg-opacity-80 text-gray-100">Details</button>
+      <div></div>
+
+      </div>
+      <!-- end events -->
+      <hr>
+
+      <!-- start events -->
+      <div class="event-plan flex my-2 center">
+        <!-- //picture and description// -->
+      <div class="flex event">
+        <img src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="" class='object-fill h-16 w-66'>
+        <div >
+          <span style="color:#880e0e">fri,20 oct</span><br>
+       
+          <span>Intercultural Interaction:'Youth friendship  World'/ <span style="color:#880e0e">university</span></span>
+        </div>
+      </div>
+      <!-- button -->
+      <button class="inline-block px-3 py-1 mt-2 ml-50 rounded-md bg-black bg-opacity-80 text-gray-100">Details</button>
+      <div></div>
+
+      </div>
+      <!-- end events       -->
+      <hr>
+
+    </section>
   </main>
   <!-- import footer here  -->
   <?php
