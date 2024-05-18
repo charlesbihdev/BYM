@@ -286,12 +286,13 @@ $cur_page = 'home';
 
         <div class="justify-evenly flex flex-col px-8">
           <h2 class="post-heading text-green text-2xl">
-            order-b-2 bottom og hgg hjj of the ent.
+            GET INSPIRED
           </h2>
-          <div class="main-post text-justify">
-            border-b-2 adds a 2px border to the bottom of the
-            element.border-gray-400 sets the color of the border to a shade of
-            gray.
+          <div class="main-post text-justify py-100">
+          All youth in Bekwai and its surrounding communities are invited to join the Bekwai Youth Movement and be inspired to create a 
+future where we are empowered to thrive, and communities are sustainable and prosperous. Our vision is to empower 5,000 
+innovative young leaders from Bekwai and its suburbs to effect change at community, regional, national and international levels, 
+contributing to sustainable development and global goals whiles providing opportunities for all.
           </div>
 
           <div class="flex flex-row">
@@ -312,12 +313,13 @@ $cur_page = 'home';
 
         <div class="justify-evenly flex flex-col px-8">
           <h2 class="post-heading text-green text-2xl">
-            order-b-2 bottom og hgg hjj of the ent.
+            GET THINKING
           </h2>
           <div class="main-post text-justify">
-            border-b-2 adds a 2px border to the bottom of the
-            element.border-gray-400 sets the color of the border to a shade of
-            gray.
+          All youth are encouraged to join us to engage in stimulating discussions on youth participation in community development 
+initiatives for Bekwai and all suburbs. Join us in fostering an open and constructive dialogue on how young people can unlock their 
+full potential and contribute meaningfully to the sustainable growth and prosperity of our society. Let's challenge systemic barriers 
+to youth development and promote volunteerism and community engagement together.
           </div>
 
           <div class="flex flex-row">
@@ -331,20 +333,20 @@ $cur_page = 'home';
       </div>
       <!-- end blog card here  -->
       <!-- start blog card here  -->
-      <div class="blog-card flex justify-between rounded-lg">
+      <div class="blog-card flex justify-between rounded-lg" style="width:500px; height:250px;">
         <div class="img-section">
-          <img class="post-img" src="./assets/blog-images/temp1.jpg" height="100%" />
+          <img class="post-img" src="./assets/blog-images/temp1.jpg" height="400px" width="500px" />
         </div>
 
-        <div class="justify-evenly flex flex-col px-8">
+         <div class="justify-evenly flex flex-col px-8">
           <h2 class="post-heading text-green text-2xl">
-            order-b-2 bottom og hgg hjj of the ent.
+            GET CONNECTED
           </h2>
           <div class="main-post text-justify">
-            border-b-2 adds a 2px border to the bottom of the
-            element.border-gray-400 sets the color of the border to a shade of
-            gray.
-          </div>
+          A youth in Bekwai and its surrounding communities are urged to connect with the Bekwai Youth Movement and forge strategic 
+connections with fellow youth leaders, organizations, businesses, and stakeholders. Let's collaborate on innovative solutions to 
+tackle the pressing issues facing our community and contribute to global progress.
+          </div> 
 
           <div class="flex flex-row">
             <p class="text-red font-bold mr-2 cursor-pointer hover:text-blue-800">
@@ -355,6 +357,7 @@ $cur_page = 'home';
           </div>
         </div>
       </div>
+      
       <!-- end blog card here  -->
     </section>
     <section class="section-6 px-10 sm:px-12 py-10">
@@ -451,6 +454,32 @@ $cur_page = 'home';
         </div>
         <!-- Our volunteering Team end -->
       </div>
+
+        <div class="flex justify-evenly mt-6 flex-wrap">
+          <!-- maanagment team start -->
+        <div class="team-card my-3">
+          <img width="100%" class="rounded-lg" src="./assets/images/team10.jpg" alt="team member" />
+          <p class="tracking-wide font-bold text-xl text-blue">AGYAPONG MICHEAL</p>
+          <p class="tracking-wide text-sm mb-2 text-red">PRESIDENT</p>
+        </div>
+        <div class="team-card my-3">
+          <img width="100%" class="rounded-lg" src="./assets/images/team10.jpg" alt="team member" />
+          <p class="tracking-wide font-bold text-xl text-blue">JOE  SHORTINGO</p>
+          <p class="tracking-wide text-sm mb-2 text-red">WOMEN EMPOWERMENT & STEM LEAD</p>
+        </div>
+        <div class="team-card my-3">
+          <img width="100%" class="rounded-lg" src="./assets/images/team10.jpg" alt="team member" />
+          <p class="tracking-wide font-bold text-xl text-blue">JULIANA QUAYE</p>
+          <p class="tracking-wide text-sm mb-2 text-red">PATRON</p>
+        </div>
+        <div class="team-card my-3">
+          <img width="100%" class="rounded-lg" src="./assets/images/team10.jpg" alt="team member" />
+          <p class="tracking-wide font-bold text-xl text-blue">PRECIOUX NAANA</p>
+          <p class="tracking-wide text-sm mb-2 text-red">EXECUTIVE MEMBER</p>
+        </div>
+        <!-- management team ends -->
+        </div>
+
     </section>
     <section class="flex justify-center items-center newsletter py-10">
       <div class="box">
@@ -465,7 +494,7 @@ $cur_page = 'home';
           <input type="text" class="mb-4 input" placeholder="Enter First Name" required />
 
           <input type="text" class="input mb-12" placeholder="Enter e-mail adress" required />
-          <buttonS name="submit" class="btn">Subscribe</button>
+          <button name="submit" class="btn">Subscribe</button>
         </div>
       </div>
     </section>
@@ -482,6 +511,123 @@ $cur_page = 'home';
         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
         culpa qui officia .
       </p>
+    </section>
+    <style>
+      .event-plan{
+        /* border:1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 200px;
+        box-shadow: 0.5px 0.5px black;
+      }
+      .event{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:10px;
+      }
+     
+      
+    </style>
+    <div>
+      <span style="margin-left: 150px;text-decoration:underline;font-weight: 900;">OUR EVENTS</span>
+    </div>
+    <section class="boder ml-20 my-2 px-20">
+      <!-- begin events -->
+      <div class="event-plan flex my-2 center">
+        <!-- //picture and description// -->
+      <div class="flex event">
+        <img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" alt="" class='object-fill h-16 w-86'>
+        <div >
+          <span style="color:#880e0e">Mon,25 Mar</span><br>
+        
+          <span>Intercultural Interaction:'Youth of the World'/ <span style="color:#880e0e">Moscow</span></span>
+        </div>
+      </div>
+      <!-- button -->
+      <button class="inline-block px-3 py-1 mt-2 ml-50 rounded-md bg-black bg-opacity-80 text-gray-100">Details</button>
+      <div></div>
+
+      </div>
+      <!-- end events -->
+      <hr class="w-25">
+
+      <!-- start events -->
+      <div class="event-plan flex my-2  center">
+        <!-- //picture and description// -->
+      <div class="flex event">
+        <img src="https://images.unsplash.com/photo-1526666923127-b2970f64b422?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="" class='object-fill h-16 w-86'>
+        <div >
+          <span style="color:#880e0e">Thur,12 April</span><br>
+      
+          <span>Intercultural Interaction:'Youth of the World'/ <span style="color:#880e0e">e-learning</span></span>
+        </div>
+      </div>
+      <!-- button -->
+      <button class="inline-block px-3 py-1 mt-2 ml-50 rounded-md bg-black bg-opacity-80 text-gray-100">Details</button>
+      <div></div>
+
+      </div>
+      <!-- end events -->
+      <hr>
+      <!-- start events -->
+      <div class="event-plan flex my-2 center">
+        <!-- //picture and description// -->
+      <div class="flex event">
+        <img src="https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="" class='object-fill h-16 w-76'>
+        <div >
+          <span style="color:#880e0e">Sat,2 Jun</span><br>
+      
+          <span>Jesus Interaction:'Youth of the World'/ <span style="color:#880e0e">religion</span></span>
+        </div>
+      </div>
+      <!-- button -->
+      <button class="inline-block px-3 py-1 mt-2 ml-50 rounded-md bg-black bg-opacity-80 text-gray-100">Details</button>
+      <div></div>
+
+      </div>
+      <!-- end events -->
+      <hr>
+
+      <!-- start events -->
+      <div class="event-plan flex my-2 center">
+        <!-- //picture and description// -->
+      <div class="flex event">
+        <img src="https://images.unsplash.com/photo-1579275542618-a1dfed5f54ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="" class='object-fill h-16 w-66'>
+        <div >
+          <span style="color:#880e0e">Wed,9 Sept</span><br>
+        
+          <span>Developers meeting:'Youth of the World'/ <span style="color:#880e0e">Zoom</span></span>
+        </div>
+      </div>
+      <!-- button -->
+      <button class="inline-block px-3 py-1 mt-2 ml-50 rounded-md bg-black bg-opacity-80 text-gray-100">Details</button>
+      <div></div>
+
+      </div>
+      <!-- end events -->
+      <hr>
+
+      <!-- start events -->
+      <div class="event-plan flex my-2 center">
+        <!-- //picture and description// -->
+      <div class="flex event">
+        <img src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="" class='object-fill h-16 w-66'>
+        <div >
+          <span style="color:#880e0e">fri,20 oct</span><br>
+       
+          <span>Intercultural Interaction:'Youth friendship  World'/ <span style="color:#880e0e">university</span></span>
+        </div>
+      </div>
+      <!-- button -->
+      <button class="inline-block px-3 py-1 mt-2 ml-50 rounded-md bg-black bg-opacity-80 text-gray-100">Details</button>
+      <div></div>
+
+      </div>
+      <!-- end events       -->
+      <hr>
+
     </section>
   </main>
   <!-- import footer here  -->

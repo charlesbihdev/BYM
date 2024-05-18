@@ -129,7 +129,7 @@ h6 {
 }
 .newsletter {
   height: 450px;
-  background-color: #e5f7f7;
+  /* background-color: #e5f7f7; */
 }
 .newsletter h1 {
   font-family: "Gilroy", sans-serif;
@@ -149,7 +149,7 @@ h6 {
 }
 
 .box p {
-  color: #312940;
+  /* color: #312940; */
   margin: 10px;
 }
 
@@ -171,7 +171,7 @@ h6 {
 }
 
 .btn {
-  background-color: #356698;
+  /* background-color: #356698; */
   border: 0;
   border-radius: 50px;
   color: #fff;
@@ -194,6 +194,8 @@ h6 {
 .hide-for-mobile {
   display: none;
 }
+
+/* styling the about mouth */
 
 .footer ul {
   width: 280px;
@@ -278,3 +280,5 @@ h6 {
     display: none;
   }
 }
+
+
