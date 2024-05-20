@@ -8,7 +8,7 @@
         <div class="w-full sm:w-2/4 px-2">
             <span class="text-xl sm:text-base my-4 text-red">Mon,25 Mar</span><br>
 
-            <span class="text-xl sm:text-base my-4 ">Intercultffffffffffffffffffffffffffffffffffffffffffffffffffffural Interaction:'Youth of the World' <span style="color:#880e0e">Moscow</span>
+            <span class="text-xl sm:text-base my-4 text-wrap">Intercultffffffffffffffffffffffffffffffffffffffffffffffffffffural Interaction:'Youth of the World' <span style="color:#880e0e">Moscow</span>
         </div>
         <div class="w-full sm:w-auto px-5 sm:px-auto mt-5 sm:my-auto">
             <button type="button" class=" sm:mt-0 shadow block w-full sm:w-auto sm:px-6 py-3 rounded-md bg-black hover:bg-gray-700 bg-opacity-80 text-gray-100 my-auto">Details</button>
