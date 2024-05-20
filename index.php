@@ -394,7 +394,7 @@ $cur_page = 'home';
 
     <!-- partners & organizations here  -->
 
-    <section class="bg-white py-12 px-20">
+    <section class="bg-white py-12 px-10 sm:px-20">
       <h1 class=" text-center text-red text-4xl tracking-wider font-extrabolds mb-5">
         <!-- Partners,Collaboratons & AffiliateOrganizations -->
         PARTNERS, COLLABORATONS & AFFILIATE ORGANIZATIONS
