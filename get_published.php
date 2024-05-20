@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8" />
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="./assets/images/logo.jpg" />
 
@@ -27,23 +28,24 @@
 
   <title>Home | Bekwai Youth Movement</title>
 </head>
+
 <body>
-<?php
+  <?php
   include("./includes/header.php");
   ?>
   <style>
-    body{
-      background:white;
+    body {
+      background: white;
       background-image: url(./assets/images/logo.png);
       background-repeat: no-repeat;
       background-position: center;
       /* padding:100px; */
       opacity: 10.5;
-      width:100%;
+      width: 100%;
     }
   </style>
   <form method="post" class="mx-auto ">
-  <section class="flex justify-center items-center newsletter py-10 mb-50">
+    <section class="flex justify-center items-center newsletter py-10 mb-50">
       <div class="box">
         <h2 class="text-center text-blue text-3xl">
           Publish Your Article
@@ -81,4 +83,5 @@
   </script>
 
 </body>
+
 </html>
