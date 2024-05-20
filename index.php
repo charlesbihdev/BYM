@@ -19,6 +19,7 @@ $cur_page = 'home';
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
   <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/featured-events.css" />
   <link rel="stylesheet" href="./styles/header.css" />
   <link rel="stylesheet" href="./styles/footer.css" />
 
@@ -28,6 +29,18 @@ $cur_page = 'home';
   <link rel="stylesheet" href="./styles/slick-hero.css" charset="utf-8">
 
   <title>Home | Bekwai Youth Movement</title>
+  <style>
+    @media (max-width: 767px) {
+      .nav {
+        display: none;
+      }
+
+      /* Your CSS rules for mobile devices go here */
+      /* .featured {
+        flex-wrap: wrap !important;
+      } */
+    }
+  </style>
 </head>
 
 <body>
@@ -111,7 +124,7 @@ $cur_page = 'home';
 
     <section class="we-believe flex flex-wrap">
       <div class="w-full lg:w-1/2">
-        <h1 class="text-green text-center text-3xl tracking-widest font-extrabold mt-12 mb-5">
+        <h1 class="text-green text-center text-4xl tracking-widest font-extrabold mt-12 mb-5">
           WHAT WE BELIEVE
         </h1>
         <p class="text-center mx-10 text-lg leading-relaxed mb-10">
@@ -198,9 +211,9 @@ $cur_page = 'home';
     </section>
     <section style="color: black" class="section-4 text-white">
       <h1 class="mx-2 text-center text-red text-4xl tracking-wider font-extrabolds mb-5 mt-10">
-        Initiatives To Get The Youth Involved
+        INITIATIVES TO GET THE YOUTH INVOLVED
       </h1>
-      <p class="text-justify mx-8 sm:mx-12 text-xl leading-relaxed mb-5">
+      <p class="text-justify mx-8 sm:mx-12 text-lg leading-relaxed mb-5">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
         minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -215,8 +228,9 @@ $cur_page = 'home';
       <div class=" flex items-center justify-center lg:h-screen">
         <div class="container mx-auto mx-auto">
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4">
-            <h1 class="tracking-widest text-green font-extrabold mb-4 md:mt-12 text-3xl md:text-5xl">
-              Feel Free To Read Our Latest Blogs Below
+            <h1 class="tracking-widest text-green font-extrabold mb-4 md:mt-12 text-4xl">
+              <!-- Feel Free To Read Our Latest Blogs Below -->
+              FEEL FREE TO READ OUR LATEST BLOGS BELOW
             </h1>
             <!-- Replace this with your grid items -->
             <div class="bg-white rounded-lg border p-4">
@@ -274,7 +288,9 @@ $cur_page = 'home';
       <!-- start blog card here  -->
       <div class="blog-card-no-bg flex justify-center items-center rounded-lg mb-6">
         <h1 class="tracking-widest text-green font-extrabold text-5xl">
-          Feel Free To Read Our Latest Blogs Below
+          <!-- Feel Free To Read Our Latest Blogs Below -->
+          FEEL FREE TO READ OUR LATEST BLOGS BELOW
+
         </h1>
       </div>
       <!-- end blog card here  -->
@@ -358,9 +374,11 @@ $cur_page = 'home';
       <!-- end blog card here  -->
     </section>
     <section class="section-6 px-10 sm:px-12 py-10">
-      <h1 class="tracking-widest text-red font-extrabold text-3xl sm:text-5xl mb-6 sm:mb-10">
-        Meet Our <br />
-        volunteering Team
+      <h1 class="text-center tracking-widest text-red font-extrabold text-3xl sm:text-4xl mb-6 sm:mb-10">
+        <!-- Meet Our <br />
+        volunteering Team -->
+        MEET OUR VOLUNTEERING TEAM
+
       </h1>
       <p class="my-6 text-lg ">
         We are committed and passionate to create positive change in Bekwai
@@ -469,20 +487,24 @@ $cur_page = 'home';
         </div>
       </div>
     </section>
-    <section style="color: black" class="section-4 text-white">
-      <h1 class="mx-4 text-center text-red text-4xl tracking-wider font-extrabolds mb-5 mt-10">
-        Initiatives To Get The Youth Involved
+    <section style="color: black" class="section-4 text-white mt-14 mb-16">
+      <h1 class="mx-4 text-center text-red text-4xl tracking-wider font-extrabolds mb-8 mt-1">
+        <!-- Initiatives To Get The Youth Involved -->
+        INITIATIVES TO GET THE YOUTH INVOLVED
       </h1>
-      <p class="text-justify mx-12 text-xl leading-relaxed my-12">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-        culpa qui officia .
-      </p>
+      <div class="mx-10 md:mx-20 mt-4">
+        <h2 class="text-center bg-blue text-lg text-white rounded text-bold px-4 md:px-8 py-2 inline-block mb-4 md:mb-2">Verificar es correo electrónico
+        </h2>
+        <p class="text-justify text-md sm:text-lg md:leading-relaxed">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur
+        </p>
+      </div>
     </section>
+
+    <?php require_once 'includes/featured-events.php'; ?>
   </main>
   <!-- import footer here  -->
   <?php
