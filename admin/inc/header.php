@@ -151,7 +151,7 @@ $cur_page = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], "/"
 						</a>
 						<ul class="treeview-menu">
 							<li><a href="category.php"><i class="fa fa-circle-o"></i> Category</a></li>
-							<li><a href="blogs.php"><i class="fa fa-circle-o"></i> Blog</a></li>
+							<li><a href="blogs.php"><i class="fa fa-circle-o"></i> Blog&Opportunities</a></li>
 							<li><a href="comment.php"><i class="fa fa-circle-o"></i> Comment</a></li>
 						</ul>
 					</li>
