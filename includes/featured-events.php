@@ -1,4 +1,4 @@
-<section class="boder p-16" style="background-color: #ecfafa">
+<section class="boder p-16 bg-[#ecfafa]">
     <h1 class="text-4xl text-center tracking-widest text-red font-extrabold">OUR EVENTS</h1>
     <!-- start events -->
     <div class="shadow mt-3 flex-wrap justify-center flex bg-white py-4 ">

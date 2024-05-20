@@ -50,10 +50,6 @@ h6 {
 .we-believe h1 {
   font-family: "Gilroy-bold", sans-serif;
 }
-.wedo-section {
-  background-color: #ecfafa;
-  /* height: 350px; */
-}
 
 .wedo-card {
   height: 275px;
@@ -280,5 +276,3 @@ h6 {
     display: none;
   }
 }
-
-

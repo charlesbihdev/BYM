@@ -19,8 +19,8 @@ $cur_page = 'about';
     section div {
       /* border: 1px solid black; */
       /* background-color: gray; */
-      height: 420px;
-      width: 650px;
+      height: 400px;
+      width: 550px;
     }
   </style>
 </head>
@@ -30,10 +30,10 @@ $cur_page = 'about';
   <?php
   include("./includes/header.php");
   ?>
-  <h1 class="text-5xl my-12 font-bold text-center text-blue-800">About US</h1>
-  <section class="px-4 flex flex-wrap items-center justify-center pb-10">
+  <h1 class="text-4xl my-10 font-bold text-center text-blue-800">ABOUT US</h1>
+  <section class="flex flex-wrap items-center justify-center pb-10">
     <div class="h-50 w-50 xl:mr-10 bg-gray-100 p-8 text-justify">
-      <h3 class="text-blue-800 mb-5 text-3xl font-bold">Our Story</h3>
+      <h3 class="text-blue-800 mb-5 text-2xl">Our Story</h3>
       <p class="text-gray-600">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -47,13 +47,13 @@ $cur_page = 'about';
       <img src="./assets/images/youth.jpg" style="height: 100%" width="100%" />
     </div>
   </section>
-  <section class="px-4 flex flex-wrap items-center justify-center mb-10">
+  <section class="flex flex-wrap items-center justify-center">
     <div class="h-50 w-50 mt-12 mb-10" style="margin-top: 80px">
       <img src="./assets/images/download.jpeg" style="height: 100%" width="100%" />
     </div>
 
     <div class="h-50 w-50 xl:ml-10 bg-gray-100 p-8 text-justify">
-      <h3 class="text-blue-800 mb-5 text-3xl font-bold">Our Mission</h3>
+      <h3 class="text-blue-800 mb-5 text-2xl">Our Mission</h3>
       <p class="text-gray-600">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

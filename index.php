@@ -35,10 +35,13 @@ $cur_page = 'home';
         display: none;
       }
 
-      /* Your CSS rules for mobile devices go here */
-      /* .featured {
-        flex-wrap: wrap !important;
-      } */
+    }
+
+    .img-box {
+      /* border:1px solid black; */
+      width: 150px;
+      height: 80px;
+      border-radius: 10px;
     }
   </style>
 </head>
@@ -142,7 +145,7 @@ $cur_page = 'home';
       </div>
     </section>
     <!-- https://www.flaticon.com/free-icon/user_1077063?term=people&related_id=1077063 -->
-    <section class="wedo-section flex flex-wrap py-10 px-10 justify-around text-center items-center">
+    <section class="bg-[#ecfafa] flex flex-wrap py-10 px-10 justify-around text-center items-center">
       <div class="px-4 wedo-card bg-blue text-white h-50 rounded-lg flex flex-col items-center">
         <img src="./icons/user.png" />
         <h2>People and Leadership</h2>
@@ -234,7 +237,7 @@ $cur_page = 'home';
       <h1 class="text-center tracking-widest text-red font-extrabold text-3xl sm:text-4xl mb-6 sm:mb-10">
         <!-- Meet Our <br />
         volunteering Team -->
-        MEET OUR VOLUNTEERING TEAM
+        MEET OUR TEAM
 
       </h1>
       <p class="my-6 text-lg ">
@@ -353,7 +356,7 @@ $cur_page = 'home';
       </div>
 
     </section>
-    <section class="flex justify-center items-center newsletter py-10">
+    <section class="bg-[#ecfafa] flex justify-center items-center newsletter py-10">
       <div class="box">
         <h2 class="text-center text-blue text-3xl">
           Subscribe to our Newsletter
@@ -386,8 +389,61 @@ $cur_page = 'home';
         </p>
       </div>
     </section>
-
+    <!-- import events here  -->
     <?php require_once 'includes/featured-events.php'; ?>
+
+    <!-- partners & organizations here  -->
+
+    <section class="bg-white py-12 px-20">
+      <h1 class=" text-center text-red text-4xl tracking-wider font-extrabolds mb-5">
+        <!-- Partners,Collaboratons & AffiliateOrganizations -->
+        PARTNERS, COLLABORATONS & AFFILIATE ORGANIZATIONS
+      </h1>
+      <div class="flex flex-wrap justify-center mx-18 gap-10">
+
+        <div class="text-center w-28">
+          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
+          <h2>K&K partners</h2>
+        </div>
+        <div class="text-center w-28">
+          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
+          <h2>K&K partners</h2>
+        </div>
+        <div class="text-center w-28">
+          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="">
+          <h2>K&K partners</h2>
+        </div>
+        <div class="text-center w-28">
+          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="">
+          <h2>K&K partners</h2>
+        </div>
+        <div class="text-center w-28">
+          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="">
+          <h2>K&K partners</h2>
+        </div>
+        <div class="text-center w-28">
+          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
+          <h2>K&K partners</h2>
+        </div>
+        <div class="text-center w-28">
+          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="">
+          <h2>Franko and TradingLimited</h2>
+        </div>
+        <div class="text-center w-28">
+          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="">
+          <h2>K&K partners</h2>
+        </div>
+        <div class="text-center w-28">
+          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="">
+          <h2>K&K partners</h2>
+        </div>
+      </div>
+    </section>
+    <!-- partners & organizations end  -->
+
+
+    <!-- import communities here  -->
+    <?php require_once 'includes/community-marquee.php'; ?>
   </main>
   <!-- import footer here  -->
   <?php

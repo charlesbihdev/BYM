@@ -39,62 +39,47 @@ $cur_page = 'blog';
   <div class="px-4 sm:px-20 mx-auto">
     <!-- header -->
     <header class="flex flex-wrap justify-between py-8">
-      <a href="#" class="px-2 lg:px-0 font-bold font-xl capitalize">
-        <h2 class="text-2xl">Blog Page</h2>
+      <a href="#" class="px-2 lg:px-0 font-bold font-xl">
+        <h2 class="text-2xl text-blue mb-5 ">Blog Page</h2>
       </a>
-      <button class="block md:hidden px-2 text-3xl">
-        <i class="bx bx-menu"></i>
-      </button>
-      <ul class=" md:inline-flex items-center">
 
-        <li class="px-2 md:px-4">
-          <a href="#" class="text-gray-500 font-semibold hover:text-green-600 border-b text-yellow-500 border-yellow-500">
-            Category 1
-          </a>
-        </li>
-        <li class="px-2 md:px-4">
-          <a href="#" class="text-gray-500 font-semibold hover:text-green-600">
-            Category 2
-          </a>
-        </li>
-        <li class="px-2 md:px-4">
-          <a href="#" class="text-gray-500 font-semibold hover:text-green-600">
-            Category 3
-          </a>
-        </li>
-        <li class="px-2 md:px-4 hidden md:block">
-          <a href="#" class="text-gray-500 font-semibold hover:text-green-600">
-            Category 4
-          </a>
-        </li>
+      <ul class="flex flex-wrap items-center">
 
+        <li class="px-2 flex-auto md:px-4 mb-3">
+          <a href="#" class="font-semibold hover:bg-black px-4 py-1 rounded-md bg-blue bg-opacity-80 text-white">
+            OUR NEWS
+          </a>
+        </li>
+        <li class="px-2 flex-auto md:px-4 mb-3">
+          <a href="#" class="font-semibold hover:bg-black px-4 py-1 rounded-md bg-blue bg-opacity-80 text-white">
+            CONFERENCES
+          </a>
+        </li>
+        <li class="px-2 flex-auto md:px-4 mb-3">
+          <a href="#" class="font-semibold hover:bg-black px-4 py-1 rounded-md bg-blue bg-opacity-80 text-white">
+            SCHOLARSHIP/FELLOWS
+          </a>
+        </li>
+        <li class="px-2 flex-auto md:px-4 mb-3">
+          <a href="#" class="font-semibold hover:bg-black px-4 py-1 rounded-md bg-blue bg-opacity-80 text-white">
+            YOUTH ARTICLES & SDGs
+          </a>
+        </li>
       </ul>
 
-      <nav class="bg-white text-black rounded mx-auto mt-12 py-12 px-5">
-        <span class='blog-implement'>Have any news, articles or youth opportunity that you would like to share via our platform?</span>
-        <span> Get opportunities or new published on our platform for free.Free promotion by BYM!
-        </span>
-        <button type="button" class="py-1 px-4 rounded ml-10 bg-blue text-white shadow">
-          <a style="font-weight:900;" href="./get_published.php">Get Published</a>
-        </button>
-        <hr style="padding-top:10px;">
-        <a href="#" class="inline-block px-4 py-1 mt-2 rounded-md bg-black bg-opacity-80 text-gray-100">
-          OUR NEWS
-        </a>
-        <a href="#" class="inline-block px-4 py-1 mt-2 rounded-md bg-black bg-opacity-80 text-gray-100">
-          CONFERENCES
-        </a>
-        <a href="#" class="inline-block px-4 py-1 mt-2 rounded-md bg-black bg-opacity-80 text-gray-100">
-          SCHOLARSHIP/FELLOWS
-        </a>
-        <a href="#" class="inline-block px-4 py-1 mt-2 rounded-md bg-black bg-opacity-80 text-gray-100">
-          YOUTH ARTICLES & SDGs
-        </a>
-      </nav>
     </header>
     <!-- header ends here -->
 
-    <main class="mt-12">
+    <main>
+
+      <nav class="bg-white text-black rounded mx-auto mt-5 mb-12 py-12 px-5">
+        <span class="text-lg font-bold">Have any news, articles or youth opportunity that you would like to share via our platform? Get opportunities or new published on our platform for free. Free promotion by BYM!
+          <button type="button" class="py-1 px-4 rounded ml-10 bg-violet-500 text-white shadow mb-4">
+            <a style="font-weight:900;" href="./get_published.php">Get Published</a>
+          </button>
+          <hr>
+
+      </nav>
       <!-- featured section -->
       <div class="featured flex md:flex-no-wrap space-x-0 md:space-x-6 flex-no-wrap mb-16">
         <!-- main post -->
