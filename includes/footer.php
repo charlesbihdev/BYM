@@ -24,6 +24,10 @@
             <a href="./volunteer.php" class="<?php if ($cur_page == 'volunteer') echo 'text-yellow-500'; ?>">Become a Volunteer</a>
         </li>
         <li>
+            <a href="./team.php" class="<?php if ($cur_page == 'team') echo 'text-yellow-500'; ?>">View our team</a>
+        </li>
+
+        <li>
             <a href="./about.php" class="<?php if ($cur_page == 'about') echo 'text-yellow-500'; ?>">Read About Us</a>
         </li>
         <li>
@@ -43,7 +47,7 @@
 </div>
 
 <footer class="bg-gray-700 border-white border-2 border-x-0 font-bold text-white text-center py-5">
-    <p class="mx-2">&copy; 2023 BEKWAI YOUTH MOVEMENT. DEVELOPED BY <a class="text-blue-500" target="_blank" href="https://linktr.ee/charlesbihdev">CHARLES OWUSU BIH
+    <p class="mx-2">&copy; 2024 MATTRESS HOME BY <a class="text-blue-500" target="_blank" href="https://linktr.ee/charlesbihdev">CHARLES OWUSU BIH
     </p></a>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>

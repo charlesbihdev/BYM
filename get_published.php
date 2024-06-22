@@ -1,3 +1,7 @@
+<?php
+$cur_page = 'blog';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 

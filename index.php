@@ -1,5 +1,6 @@
 <?php
 $cur_page = 'home';
+require_once './includes/data/teamdata.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -125,23 +126,24 @@ $cur_page = 'home';
 
 
 
-    <section class="we-believe flex flex-wrap">
+    <section class="we-believe flex flex-wrap flex-wrap-reverse">
       <div class="w-full lg:w-1/2">
         <h1 class="text-green text-center text-4xl tracking-widest font-extrabold mt-12 mb-5">
           WHAT WE BELIEVE
         </h1>
-        <p class="text-center mx-10 text-lg leading-relaxed mb-10">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        <p class="text-center mx-10 text-lg leading-relaxed mb-14">
+          Aligned with our mission, we are committed to achieving the SDGs in Sefwi Bekwai by empowering youth, addressing community challenges, and supporting the less privileged. Through partnerships, innovation, and grassroots efforts, we envision thriving individuals and flourishing communities. Join us in creating sustainable development and positive change in Sefwi Bekwai and beyond. Together, we can build a brighter future for all.
+
         </p>
       </div>
       <div class="w-full lg:w-1/2">
-        <img src="./assets/images/1logo-transparent.png" style="height: 330px; display: block; margin: 0 auto" />
+        <img src="./assets/images/logo.png" class="w-48 h-48 mx-auto" />
+        <div class="flex justify-center gap-10">
+          <img src="./assets/images/SDG.png" class="w-40 h-40" />
+          <img src="./assets/images/agenda-2063.jpg" class="w-40" />
+
+        </div>
+
       </div>
     </section>
     <!-- https://www.flaticon.com/free-icon/user_1077063?term=people&related_id=1077063 -->
@@ -151,8 +153,8 @@ $cur_page = 'home';
         <h2>People and Leadership</h2>
 
         <p>
-          Excepteur sint occaecat cupidatat non proident, sunt qui officia
-          deserunt
+          Effective leadership is not only guiding others, but serving with integrity, empathy, and humility.
+
         </p>
 
         <button class="hover:bg-white hover:text-red-800 font-bold py-1 px-4 rounded-lg border-2 transition duration-1000 ease-in-out">
@@ -164,8 +166,8 @@ $cur_page = 'home';
         <h2>Community and SDG's</h2>
 
         <p>
-          Excepteur sint occaecat cupidatat non proident, sunt qui officia
-          deserunt
+          BYM recognizes achieving the SDGs at the community level youth empowerment
+
         </p>
 
         <button class="hover:bg-white hover:text-red-800 font-bold py-1 px-4 rounded-lg border-2 transition duration-1000 ease-in-out">
@@ -177,8 +179,7 @@ $cur_page = 'home';
         <h2>General Assembly</h2>
 
         <p>
-          Excepteur sint occaecat cupidatat non proident, sunt qui officia
-          deserunt
+          A Forum for decision-making and consensus-building to address pressing issues
         </p>
 
         <button class="hover:bg-white hover:text-red-800 font-bold py-1 px-4 rounded-lg border-2 transition duration-1000 ease-in-out">
@@ -190,8 +191,8 @@ $cur_page = 'home';
         <h2>Stem and Career Enhancement</h2>
 
         <p>
-          Excepteur sint occaecat cupidatat non proident, sunt qui officia
-          deserunt
+          BYM empowers future STEM leaders to drive community and global change.
+
         </p>
 
         <button class="hover:bg-white hover:text-red-800 font-bold py-1 px-4 rounded-lg border-2 transition duration-1000 ease-in-out">
@@ -203,8 +204,9 @@ $cur_page = 'home';
         <h2>Enterpreneurship & Youth Employment</h2>
 
         <p>
-          Excepteur sint occaecat cupidatat non proident, sunt qui officia
-          deserunt
+          BYM inspires future entrepreneurs to boost community employment and prosperity.
+
+
         </p>
 
         <button class="hover:bg-white hover:text-red-800 font-bold py-1 px-4 rounded-lg border-2 transition duration-1000 ease-in-out">
@@ -217,13 +219,8 @@ $cur_page = 'home';
         INITIATIVES TO GET THE YOUTH INVOLVED
       </h1>
       <p class="text-justify mx-8 sm:mx-12 text-lg leading-relaxed mb-5">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-        culpa qui officia deserunt mollit anim id est laborum.
+        BYM passionately engages youth in achieving the SDGs through leadership programs, empowerment, advocacy, and community service projects. These initiatives tackle local challenges, aiding youth transformation, education, health, and environmental sustainability. By offering opportunities and educational support, we aim to achieve SDGs and the Africa Agenda 2063. Our climate education inspires sustainable cities and land protection, empowering youth as catalysts for sustainable development and inclusive growth.
+
       </p>
     </section>
 
@@ -249,111 +246,20 @@ $cur_page = 'home';
       <hr />
       <div class="flex justify-evenly mt-6 flex-wrap">
         <!-- Our volunteering Team start -->
-        <div class="team-card my-3">
-          <img width="100%" class="rounded-lg" src="./assets/images/team1.webp" alt="team member" />
-          <p class="tracking-wide font-bold text-xl text-blue">Charles Bih</p>
-          <p class="tracking-wide text-sm mb-2 text-red">Founder & CEO</p>
-        </div>
-        <!-- Our volunteering Team end -->
-        <!-- Our volunteering Team start -->
-        <div class="team-card my-3">
-          <img width="100%" class="rounded-lg" src="./assets/images/team2.webp" alt="team member" />
-          <p class="tracking-wide font-bold text-x text-blue">Isaac Owusu</p>
-          <p class="tracking-wide text-sm mb-2 text-red">Founder & CEO</p>
-        </div>
-        <!-- Our volunteering Team end -->
-        <!-- Our volunteering Team start -->
-        <div class="team-card my-3">
-          <img width="100%" class="rounded-lg" src="./assets/images/team3.webp" alt="team member" />
-          <p class="tracking-wide font-bold text-xl text-blue">Asamoah Jur</p>
-          <p class="tracking-wide text-sm mb-2 text-red">Founder & CEO</p>
-        </div>
-        <!-- Our volunteering Team end -->
-        <!-- Our volunteering Team start -->
-        <div class="team-card my-3">
-          <img width="100%" class="rounded-lg" src="./assets/images/team5.avif" alt="team member" />
-          <p class="tracking-wide font-bold text-xl text-blue">
-            Rita Nkansah
-          </p>
-          <p class="tracking-wide text-sm mb-2 text-red">Founder & CEO</p>
-        </div>
-        <!-- Our volunteering Team end -->
-        <!-- Our volunteering Team start -->
-        <div class="team-card my-3">
-          <img width="100%" class="rounded-lg" src="./assets/images/team4.avif" alt="team member" />
-          <p class="tracking-wide font-bold text-xl text-blue">
-            Prince Kwaku Jur
-          </p>
-          <p class="tracking-wide text-sm mb-2 text-red">Founder & CEO</p>
-        </div>
-        <!-- Our volunteering Team end -->
-        <!-- Our volunteering Team start -->
-        <div class="team-card my-3">
-          <img width="100%" class="rounded-lg" src="./assets/images/team7.jpg" alt="team member" />
-          <p class="tracking-wide font-bold text-xl text-blue">
-            Prince Kwaku Jur
-          </p>
-          <p class="tracking-wide text-sm mb-2 text-red">Founder & CEO</p>
-        </div>
-        <!-- Our volunteering Team end -->
-        <!-- Our volunteering Team start -->
-        <div class="team-card my-3">
-          <img width="100%" class="rounded-lg" src="./assets/images/team8.jpg" alt="team member" />
-          <p class="tracking-wide font-bold text-xl text-blue">
-            Yaw Kwaku Jur
-          </p>
-          <p class="tracking-wide text-sm mb-2 text-red">Founder & CEO</p>
-        </div>
-        <!-- Our volunteering Team end -->
-        <!-- Our volunteering Team start -->
-        <div class="team-card my-3">
-          <img width="100%" class="rounded-lg" src="./assets/images/team9.jpg" alt="team member" />
-          <p class="tracking-wide font-bold text-xl text-blue">Kwaku Owusu</p>
-          <p class="tracking-wide text-sm mb-2 text-red">Founder & CEO</p>
-        </div>
-        <!-- Our volunteering Team end -->
-        <!-- Our volunteering Team start -->
-        <div class="team-card my-3">
-          <img width="100%" class="rounded-lg" src="./assets/images/team6.jpg" alt="team member" />
-          <p class="tracking-wide font-bold text-xl text-blue">
-            Prince Kwaku Jur
-          </p>
-          <p class="tracking-wide text-sm mb-2 text-red">Founder & CEO</p>
-        </div>
-        <!-- Our volunteering Team end -->
-        <!-- Our volunteering Team start -->
-        <div class="team-card my-3">
-          <img width="100%" class="rounded-lg" src="./assets/images/team10.jpg" alt="team member" />
-          <p class="tracking-wide font-bold text-xl text-blue">Kwaku Owusu</p>
-          <p class="tracking-wide text-sm mb-2 text-red">Founder & CEO</p>
-        </div>
-        <!-- Our volunteering Team end -->
-      </div>
+        <?php foreach ($members as $member) { ?>
+          <div class="team-card my-5">
+            <img width="100%" class="rounded-lg" src="./assets/team/<?php echo $member['image'] ?>" alt="team member" />
+            <p class="tracking-wide font-bold text-xl text-blue"><?php echo $member['name'] ?></p>
+            <p class="tracking-wide text-sm mb-2 text-red"><?php echo $member['community'] ?></p>
+          </div>
+        <?php } ?>
 
-      <div class="flex justify-evenly mt-6 flex-wrap">
-        <!-- maanagment team start -->
-        <div class="team-card my-3">
-          <img width="100%" class="rounded-lg" src="./assets/images/team10.jpg" alt="team member" />
-          <p class="tracking-wide font-bold text-xl text-blue">AGYAPONG MICHEAL</p>
-          <p class="tracking-wide text-sm mb-2 text-red">PRESIDENT</p>
-        </div>
-        <div class="team-card my-3">
-          <img width="100%" class="rounded-lg" src="./assets/images/team10.jpg" alt="team member" />
-          <p class="tracking-wide font-bold text-xl text-blue">JOE SHORTINGO</p>
-          <p class="tracking-wide text-sm mb-2 text-red">WOMEN EMPOWERMENT & STEM LEAD</p>
-        </div>
-        <div class="team-card my-3">
-          <img width="100%" class="rounded-lg" src="./assets/images/team10.jpg" alt="team member" />
-          <p class="tracking-wide font-bold text-xl text-blue">JULIANA QUAYE</p>
-          <p class="tracking-wide text-sm mb-2 text-red">PATRON</p>
-        </div>
-        <div class="team-card my-3">
-          <img width="100%" class="rounded-lg" src="./assets/images/team10.jpg" alt="team member" />
-          <p class="tracking-wide font-bold text-xl text-blue">PRECIOUX NAANA</p>
-          <p class="tracking-wide text-sm mb-2 text-red">EXECUTIVE MEMBER</p>
-        </div>
+
         <!-- management team ends -->
       </div>
+      <a class="block bg-blue hover:bg-blue-700 px-6 py-2 text-white rounded-xl w-32 mt-4 text-center mx-auto" href="./team.php">
+        <button>View All</button>
+      </a>
 
     </section>
     <section class="bg-[#ecfafa] flex justify-center items-center newsletter py-10">
@@ -379,66 +285,41 @@ $cur_page = 'home';
         INITIATIVES TO GET THE YOUTH INVOLVED
       </h1>
       <div class="mx-10 md:mx-20 mt-4">
-        <h2 class="text-center bg-blue text-lg text-white rounded text-bold px-4 md:px-8 py-2 inline-block mb-4 md:mb-2">Verificar es correo electrónico
-        </h2>
+        <h2 class="text-center bg-blue text-lg text-white rounded font-bold px-4 md:px-8 py-2 inline-block mb-4 md:mb-2">GET INSPIRED</h2>
         <p class="text-justify text-md sm:text-lg md:leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur
+          All youth in Bekwai and its surrounding communities are invited to join the Bekwai Youth Movement and be inspired to create a future where we are empowered to thrive, and communities are sustainable and prosperous. Our vision is to empower 5,000 innovative young leaders from Bekwai and its suburbs to effect change at community, regional, national and international levels, contributing to sustainable development and global goals while providing opportunities for all.
         </p>
       </div>
+
+      <div class="mx-10 md:mx-20 mt-4">
+        <h2 class="text-center bg-blue text-lg text-white rounded font-bold px-4 md:px-8 py-2 inline-block mb-4 md:mb-2">GET THINKING</h2>
+        <p class="text-justify text-md sm:text-lg md:leading-relaxed">
+          All youth are encouraged to join us to engage in stimulating discussions on youth participation in community development initiatives for Bekwai and all suburbs. Join us in fostering an open and constructive dialogue on how young people can unlock their full potential and contribute meaningfully to the sustainable growth and prosperity of our community.
+        </p>
+      </div>
+
+      <div class="mx-10 md:mx-20 mt-4">
+        <h2 class="text-center bg-blue text-lg text-white rounded font-bold px-4 md:px-8 py-2 inline-block mb-4 md:mb-2">GET CONNECTED</h2>
+        <p class="text-justify text-md sm:text-lg md:leading-relaxed">
+          All youth in Bekwai and its surrounding communities are urged to connect with the Bekwai Youth Movement and forge strategic connections with fellow youth leaders, organizations, businesses, and stakeholders. Let's collaborate on innovative solutions to tackle the pressing issues facing our community and contribute to global progress.
+        </p>
+      </div>
+
+      <div class="mx-10 md:mx-20 mt-4">
+        <h2 class="text-center bg-blue text-lg text-white rounded font-bold px-4 md:px-8 py-2 inline-block mb-4 md:mb-2">GET READY</h2>
+        <p class="text-justify text-md sm:text-lg md:leading-relaxed">
+          All innovative and change makers, get ready to unleash your creativity and innovation with the Bekwai Youth Movement. Join us in exploring new ideas and practical programs for achieving our sustainable development agenda. Together, we can build a sustainable and inclusive society for all.
+        </p>
+      </div>
+
     </section>
     <!-- import events here  -->
     <?php require_once 'includes/featured-events.php'; ?>
 
     <!-- partners & organizations here  -->
-
-    <section class="bg-white py-12 px-10 sm:px-20">
-      <h1 class=" text-center text-red text-4xl tracking-wider font-extrabolds mb-5">
-        <!-- Partners,Collaboratons & AffiliateOrganizations -->
-        PARTNERS, COLLABORATONS & AFFILIATE ORGANIZATIONS
-      </h1>
-      <div class="flex flex-wrap justify-center mx-18 gap-10">
-
-        <div class="text-center w-28">
-          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
-          <h2>K&K partners</h2>
-        </div>
-        <div class="text-center w-28">
-          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
-          <h2>K&K partners</h2>
-        </div>
-        <div class="text-center w-28">
-          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="">
-          <h2>K&K partners</h2>
-        </div>
-        <div class="text-center w-28">
-          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="">
-          <h2>K&K partners</h2>
-        </div>
-        <div class="text-center w-28">
-          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="">
-          <h2>K&K partners</h2>
-        </div>
-        <div class="text-center w-28">
-          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
-          <h2>K&K partners</h2>
-        </div>
-        <div class="text-center w-28">
-          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="">
-          <h2>Franko and TradingLimited</h2>
-        </div>
-        <div class="text-center w-28">
-          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="">
-          <h2>K&K partners</h2>
-        </div>
-        <div class="text-center w-28">
-          <img class="rounded-full h-28 w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="">
-          <h2>K&K partners</h2>
-        </div>
-      </div>
-    </section>
+    <?php
+    require_once 'includes/partners-and-organizations.php';
+    ?>
     <!-- partners & organizations end  -->
 
 

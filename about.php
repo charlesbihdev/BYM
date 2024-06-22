@@ -33,41 +33,32 @@ $cur_page = 'about';
   <h1 class="text-4xl my-10 font-bold text-center text-blue-800">ABOUT US</h1>
   <section class="flex flex-wrap items-center justify-center pb-10">
     <div class="h-50 w-50 xl:mr-10 bg-gray-100 p-8 text-justify">
-      <h3 class="text-blue-800 mb-5 text-2xl">Our Story</h3>
-      <p class="text-gray-600">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in
+      <h3 class="text-blue-800 mb-5 text-2xl">Our Vision</h3>
+      <p class="rounded-lg text-gray-600">
+        Our vision is to create a future where young people are empowered to thrive, and communities are sustainable and prosperous.
+        Our vision extends to empowering 5,000 innovative young leaders from Bekwai and its suburbs to effect change at both national and international levels, contributing to sustainable development and global progress.
+
       </p>
     </div>
 
-    <div class="h-50 w-50 mt-12" style="margin-top: 80px">
-      <img src="./assets/images/youth.jpg" style="height: 100%" width="100%" />
+    <div class="h-50 w-50 mt-12 " style="margin-top: 80px">
+      <img class="rounded-lg" src="./assets/images/youth.jpg" style="height: 100%" width="100%" />
     </div>
   </section>
   <section class="flex flex-wrap items-center justify-center">
-    <div class="h-50 w-50 mt-12 mb-10" style="margin-top: 80px">
-      <img src="./assets/images/download.jpeg" style="height: 100%" width="100%" />
+    <div class="h-50 w-50 mt-12 mb-10 rounded" style="margin-top: 80px">
+      <img class="rounded-lg" src="./assets/images/download.jpeg" style="height: 100%" width="100%" />
     </div>
 
     <div class="h-50 w-50 xl:ml-10 bg-gray-100 p-8 text-justify">
       <h3 class="text-blue-800 mb-5 text-2xl">Our Mission</h3>
-      <p class="text-gray-600">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in
+      <p class="rounded-lg text-gray-600">
+        Our mission is to empower and mobilize the youth of Bekwai and its 31 surrounding communities to actively engage in community development initiatives. Through collaborative efforts, advocacy, and innovative solutions, we strive to create a supportive environment where young people can unlock their full potential and contribute meaningfully to the sustainable growth and prosperity of our society.
+        Our mission extends to challenge systemic barriers to youth development while promoting volunteerism and community engagement. By restructuring systems and inspiring change, we strive to build a sustainable and inclusive society for all.
+
       </p>
     </div>
 
-    <!-- <button
-        class="bg-green-800 mx-auto hover:bg-red-800 text-white font-bold mt-10 py-3 px-6 rounded-xl border-2 transition duration-1000 ease-in-out"
-      >
-        Donate
-      </button> -->
   </section>
   <!-- import footer here  -->
   <?php
